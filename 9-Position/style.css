@@ -1,16 +1,20 @@
-.base-block{
-    width: 600px;
-    height: 600px;
-    background: blue;
-    position: relative
+.badge{
+    width: 100px;
+    height: 100px;
+    background: bisque;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
 }
 
-.block{
+.badge .label{
+    height: 20px;
+    background: red;
+    color: white;
     position: absolute;
-    width: 100px;
-    height: 50px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
+    right: 0;
+    transform: translate(50%, -50%);
+    border-radius: 40px;
+    padding: 0 5px;
+    border: 2px solid white;
 }
