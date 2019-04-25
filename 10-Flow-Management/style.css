@@ -3,27 +3,32 @@ main{
     margin: auto;
 }
 
-header, .col-1, .col-2, .col-3, footer{
+.row div{
     height: 150px;
     background: blue;
     margin-bottom: 30px;
     margin-right: 30px;
 }
 
-header{
-    width: 100%;
+.row{
+    clear: both;
 }
 
-.col-1, .col-2, .col-3{
+.row div:last-child{
+    margin-right: 0;
+}
+
+.col-1{
     width: 180px;
+    float: left;
+    
+}
+
+.col-2{
+    width: 390px;
     float: left;
 }
 
-.row .cell:last-child{
-    margin-right: 0;
-}
-
-footer{
-    clear: both;
-    margin-right: 0;
+.col-3{
+    width: 100%;
 }
