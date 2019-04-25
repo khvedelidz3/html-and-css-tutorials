@@ -3,32 +3,40 @@ main{
     margin: auto;
 }
 
-.row div{
-    height: 150px;
-    background: blue;
+.cell{
+    min-height: 150px;
     margin-bottom: 30px;
-    margin-right: 30px;
-}
-
-.row{
-    clear: both;
-}
-
-.row div:last-child{
-    margin-right: 0;
 }
 
 .col-1{
     width: 180px;
     float: left;
-    
+    margin-right: 30px;
+}
+
+.row .col-1:last-child{
+    margin-right: 0;
+}
+
+.row .col-2:last-child{
+    margin-right: 0;
 }
 
 .col-2{
-    width: 390px;
     float: left;
+    width: 390px;
+    margin-right: 30px;
 }
 
 .col-3{
+    float: left;
     width: 100%;
+}
+
+.solid{
+    background: blue;
+}
+
+.row .row-2{
+    min-height: 330px;
 }
