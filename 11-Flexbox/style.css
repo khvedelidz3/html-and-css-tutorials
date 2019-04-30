@@ -15,8 +15,12 @@
     margin: 10px;
 }
 
-.header, .col-1, .col-2, .footer, .col-3{
+.col-1, .col-3{
     flex-grow: 1;
+}
+
+.col-2{
+    flex-grow: 2;
 }
 
 
