@@ -9,6 +9,11 @@
     display: flex;
 }
 
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
 .cell{
     min-height: 50px;
     background: blue;
