@@ -1,0 +1,23 @@
+.lobster{
+    font-family: 'Lobster';
+}
+
+.ptsans-regular{
+    font-family: 'PT Sans';
+}
+
+.ptsans-bold{
+    font-family: 'PT Sans';
+    font-weight: 700;
+}
+
+.ptsans-italic{
+    font-family: 'PT Sans';
+    font-style: italic;
+}
+
+.ptsans-italic-bold{
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-weight: 700;
+}
