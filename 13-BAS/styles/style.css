@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section div{
+    position: absolute;
+    background-image: url('../images/background-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+section div::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #140E0E;
+    opacity: 0.13;
+}
+
+section div::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1)0%, rgba(0, 0, 0, 0.81)30%, rgba(0, 0, 0, 0.67)55%)
+}
+
+h3{
+    position: absolute;
+}
