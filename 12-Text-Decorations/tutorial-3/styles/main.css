@@ -4,8 +4,13 @@
     margin: 0;
 }
 
+footer{
+    margin-top: 20px;
+}
+
 .top{
     background: #222533;
+    border-bottom: 1px solid #222533;
 }
 
 .bottom{
@@ -13,14 +18,15 @@
 }
 
 .bottom .wrap{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 38px;
+    padding-bottom: 38px;
 }
 
 .wrap{
     width: 1168px;
     margin: auto;
     display: flex;
+    padding-bottom: 62px;
 }
 
 .wrap div{
@@ -49,8 +55,10 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    margin-top: 100px;
-    margin-bottom: 37px;
+    margin-top: 96px;
+    margin-bottom: 33px;
+    letter-spacing: 5px;
+    word-spacing: -1.9px;
 }
 
 .top .wrap h3:after{
@@ -59,6 +67,7 @@
     height: 3px;
     background: #1ABC9C;
     display: block;
+    margin-top: 3px;
 }
 
 .wrap ul li{
@@ -73,8 +82,8 @@
     width: 100%;
     background: #46515C;
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 13px;
+    margin-bottom: 18px;
 }
 
 .wrap ul li:last-child::after{
@@ -82,6 +91,7 @@
 }
 .wrap ul li:first-child::after{
     display: block;
+    margin-bottom: 17px;
 }
 
 
@@ -104,24 +114,33 @@
     color: #A1B1BC;
 }
 
+.wrap .notes{
+    margin-left: 2px;
+}
+
 .wrap .notes p{
-    margin-top: 17px;
-    margin-bottom: 20px;
+    margin-top: -1px;
+    margin-bottom: 11px;
     font-family: 'PT Sans';
     font-size: 14px;
     line-height: 24px;
     color: #A1B1BC;
+    margin-left: 2px;
 }
 
 .wrap .notes a {
     font-family: 'PT Sans bold';
     color:#1ABC9C;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     font-weight: 700;
     text-transform: uppercase;
  
+ }
+
+ .bottom .wrap p{
+     word-spacing: -0.4px;
  }
 
 
