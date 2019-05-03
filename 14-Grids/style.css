@@ -24,5 +24,9 @@
     grid-column: span 2;
 }
 
+.container .row-2{
+    grid-row: span 2;
+}
+
 
 
